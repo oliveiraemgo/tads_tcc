@@ -1,0 +1,355 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+
+html, body{
+    background-image: url("../imagens/beige_paper.png");
+    height: 100%;
+    font-family: "Calibri";
+    line-height: 1.8;
+    color: #333;
+}
+
+#home{
+	float: left;
+	background-repeat: no-repeat;
+	background-color: black;
+	background-image: url("../imagens/banner-home.jpg");
+	width: 100%;
+	height: 671px;
+	
+}
+
+.cadastre-se{
+    margin-top: 10px;
+}
+
+a{
+    text-decoration: none;
+}
+
+p{
+	font-size: 17px;
+}
+
+
+.principal{
+    width: 90%;
+    height: auto;
+    float: right;
+    top: 70px;
+    padding-bottom: 80px;
+}
+
+h1{
+    margin-bottom: 12px;
+    font-size: 40px;
+}
+
+.top{
+    float: right;
+    background-color: #333;
+    width: 100%;
+    height: 60px;
+    clear: both;
+}
+
+.aux{
+    position: absolute;
+    left: 0;
+    top: 70px;
+}
+
+.conteudo{
+    margin: 10px;
+    position: relative;
+    background-color: transparent;
+    width: 95%;
+    height: 700px;
+    
+    border-top: 8px solid #1b9bff;
+    box-sizing: border-box;
+}
+
+.formulario{
+    margin: 10px;
+    position: relative;
+    background-color: transparent;
+    width: 95%;
+    height: 1000px;
+ 
+    border-top: 8px solid #1b9bff;
+    box-sizing: border-box;
+}
+
+/* Colunas da ficha do aluno */
+.coluna-esquerda{
+    float: left;
+    width: 50%;
+}
+
+.coluna-direita{
+    float: left;
+    width: 50%;
+}
+/* fim das colunas da ficha do aluno */
+
+.aluno{
+	background-color: #585858;
+	width: 100%;
+	height: 180px;
+	padding: 20px;
+	text-align: center;
+	box-sizing: border-box;
+}
+
+.contato{
+    float: right;
+    background-color: #eeeeee;
+    width: 35.5%;
+    height: 300px;
+    padding-left: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    box-sizing: border-box;
+}
+
+.endereco{
+    float: left;
+    background-color: #eeeeee;
+    width: 32.5%;
+    height: 300px;
+    margin-top: 10px;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+
+
+.modalidade{
+	background-color: #eeeeee;
+	float: left;
+	padding-left: 20px;
+	margin-top: 10px;
+	margin-right: 10px;
+	width: 30%;
+	height: 300px;	
+	box-sizing: border-box;
+}
+
+.status-pagamento{
+	background-color: #eeeeee;
+	float: left;
+	padding: 20px;
+	margin-top: 10px;
+	width: 100%;
+	height: 120px;	
+	box-sizing: border-box;
+}
+
+.ficha{
+	background-color: #eeeeee;
+	float: left;
+	padding: 20px;
+	margin-top: 10px;
+	width: 100%;
+	height: auto;	
+	box-sizing: border-box;
+}
+
+
+.dados-do-aluno{
+	color: #fff;
+}
+
+.rodape{
+    float:left;
+    clear: both;
+    background-color: #333;
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    color: #fff;
+    box-sizing: border-box;
+}
+
+.login{
+    position: relative;
+    top: 120px;
+    width: 520px;
+    height: 250px;
+    background-color: transparent;
+    text-align: center;
+}
+
+.input-top, .input-form, .input-login{
+    font-family: "Calibri";
+	font-size: 15px;
+    color: #333;
+	padding: 5px;
+	border: 1px solid #b9bdc1;
+	width: 300px;
+    height: 40px;
+	background-color: #fff;
+    box-sizing: border-box;
+}
+
+.input-top{
+	position: absolute;
+    right: 140px;
+    top: 10px;
+}
+
+
+.label-form{
+    width: 140px;
+    font-family: "Calibri";
+	color: #333;
+    float: left;
+	font-weight: bold;
+	line-height: 25px;
+	font-size: 20px;
+}
+
+.button-top, .button-form{
+    background-color: #1b9bff;
+	border: 0px;
+	display: inline-block;
+	color: #ffffff;
+	font-family: "Arial";
+	font-size: 14px;
+	font-weight: bold;
+	font-style: normal;
+	height: 40px;
+	width: 120px;
+	text-decoration: none;
+	text-align: center;
+    
+}
+
+.button-top{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.button-form{
+    margin-top: 20px;
+    margin-right: 2px;
+    margin-left: 2px;
+    
+}
+
+.button-efeito:active{
+    position: relative;
+	top: 1px;
+}
+
+.bt-azul, .bt-laranja, .bt-roxo, .bt-home {
+	border: 0px;
+	color: #ffffff;
+	font-family: Arial;
+	font-size: 13px;
+	font-weight: bold;
+	height: 40px;
+	width: 140px;
+	text-align: center;
+}
+
+.bt-azul{
+    background-color: #1b9bff;
+}
+
+.bt-laranja{
+    background-color:#da532e;
+}
+
+.bt-roxo{
+    background-color:#995499;
+}
+
+.bt-efeito:active {
+	position: relative;
+	top: 1px;
+}
+
+.bt-home{
+	position: relative;
+	top: 400px;
+	left: 140px;
+	background-color:#1b9bff;
+	height: 70px;
+	width: 180px;
+	font-size: 18px;
+}
+
+fieldset {
+	margin: 10px 0px;
+	width: 90%;
+    padding: 20px;
+	border: solid 1px #C0C0C0;
+}
+
+legend {
+	font-family: Calibri;
+	font-size: 20px;
+	color: #333;
+}
+
+
+/* Imagens do menu */
+
+.img-perfil{
+    background-image: url("../imagens/icon-perfil.png");
+    background-repeat: no-repeat;
+    text-indent: -99999px;
+}
+
+.img-grafico{
+    background-image: url("../imagens/icon-grafico-pequeno.png");
+    background-repeat: no-repeat;
+    text-indent: -99999px;
+}
+
+.img-add{
+    background-image: url("../imagens/add-pequeno.png");
+    background-repeat: no-repeat;
+    text-indent: -99999px;
+}
+
+/* fim das imagens do menu */
+
+.config{
+	float: right;
+	background-image: url("../imagens/config.png");
+	background-repeat: no-repeat;
+	width: 20px;
+	height: 20px;
+	text-indent: -99999px;
+}
+
+.img-plus{
+	width: 30px;
+	height: 28px;
+	float: left;
+	background-image: url("../imagens/icon-plus.png");
+	background-repeat: no-repeat;
+	text-indent: -99999px;
+}
+
+.img-lixeira{
+	float: right;
+	background-image: url("../imagens/icon-lixeira.png");
+	background-repeat: no-repeat;
+	width: 20px;
+	height: 20px;
+	text-indent: -99999px;
+}
+
+/*imagem da home*/
+
+.img-home{
+	background-image: url("../imagens/banner-home.jpg");
+	width: 100%;
+	height: 671px;
+}
